@@ -1,0 +1,1339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #f1f3f7;
+}
+
+.wrapper{
+    background-color: #f1f3f7;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.navbar{
+    background-color: #f1f3f7 !important;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+
+.fixed-nav{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+}
+
+.nav-item a{
+    text-align: center;
+}
+
+.navbar-brand{
+    padding-top: 0;
+}
+
+.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+.show{
+    width: 100%;
+    /* background-color: black; */
+}
+
+
+.home-page{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    background-color: #EEDB66;
+    /* background-color: black; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 6%;
+    flex-wrap: wrap;
+}
+
+/* .home-page .left{ */
+    /* width: 50%;
+    height: 100%;
+    background-color: #EEDB66;
+} */
+
+.home-page-headings{
+    width: fit-content;
+    height: fit-content;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* top: 30%;
+    left: 3%; */
+}
+
+.home-page-headings .model-name{
+    /* position: relative; */
+    width: fit-content;
+    /* left: 0%;
+    top: 0%; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    font-size: 115px;
+    line-height: 115px;
+    color: rgb(51, 51, 51);
+    letter-spacing: -5px;
+
+}
+
+.home-page .model-profession{
+    /* margin-top: 40px;
+    position: relative; */
+    width: fit-content;
+    /* height: fit-content;
+    left: 38%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    
+
+}
+
+.home-page .model-tagline{
+    /* margin-top: 40px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 38%;
+    top: 60%;
+    transform: translate(-50%, -50%); */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    transition: 0.2s ease;
+}
+
+.social-links{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    padding: 10px;
+    transition: 0.2s ease;
+    /* position: absolute;
+    top: 70%;
+    left: 22%; */
+}
+
+.social-links div{
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.social-links div:hover{
+    background-color: white;
+    /* border-color: 2px solid #EEDB66; */
+    color: rgb(51, 51, 51);
+    transition: 0.2s ease-in-out;
+}
+
+
+
+/* .model-images{
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    right:0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.images{
+    /* position: absolute;
+    top: 23%; */
+    /* right: 15%; */
+    width: 30%;
+    height: 90%;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* --------------------------------------
+---------------  PORTFOLIO   ------------
+-------------------------------------- */
+.portfolio{
+    width: 100%;
+    height: fit-content;
+    background-color: #f1f3f7;
+    padding-top: 100px;
+}
+
+.portfolio-heading h1{
+    font-size: 70px;
+    line-height: 72px !important;
+    font-family: "Montserrat";
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 1);
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.portfolio-main-image{
+    width: 18%;
+    height: 50vh;
+    margin: 80px auto;
+}
+
+.portfolio-main-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.photographer-label{
+    height: fit-content;
+    width: fit-content;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 150%;
+    right: 0;
+}
+
+.photographer-label h2{
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    color: #EEDB66;
+}
+
+
+.portfolio-description{
+    width: 100%;
+    height: 50vh;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+
+.port-desc-details{
+    width: 45%;
+    height: fit-content;
+}
+
+.port-desc-details p{
+    /* font-family: 'Poppins'; */
+    font-family: "Poppins";
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+
+.port-desc-image{
+    width: 22%;
+    height: 100%;
+}
+
+.port-desc-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-image-gallery{
+    margin: 100px auto;
+    width: 100%;
+    height: 80vh;
+}
+
+.portfolio-image-gallery .images-portfolio {
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.carousel.slide{
+    width: 25%;
+    height: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-image-gallery .images-portfolio img{
+    width: 20%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------
+--------------  ABOUT ME  ----------
+------------------------------------ */
+
+.about-me{
+    width: 100%;
+    height: fit-content;
+    background-color: #f1f3f7;
+    margin: 150px 0px 100px 0px;
+    
+}
+
+.about-me .portfolio-heading {
+    font-size: 70px;
+    line-height: 72px !important;
+    font-family: "Montserrat";
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: rgba(51, 51, 51, 1);
+    height: fit-content;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.statement{
+    width: 100%;
+    text-align: center;
+    margin: 120px auto;
+    background: url(./assets/about/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.statement p{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 80px !important;
+    padding: 70px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.about-description{
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-description p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 0;
+    font-size: 25px;
+    line-height: 32px;
+    width: 80%;
+    padding: 30px 50px;
+}
+
+/* ---------------------------------
+--------------  ABOUT ME  ----------
+------------------------------------ */
+
+.contact-us{
+    padding: 20px;
+    width: 100%;
+    margin: 50px 0px 10px 0px;
+    background-color: #EEDB66;
+    height: 100vh;
+}
+
+.headings-contact{
+    width: fit-content;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.headings-contact h1{
+    font-size: 70px;
+    line-height: 72px !important;
+    font-family: "Montserrat";
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: rgba(51, 51, 51, 1);
+    height: fit-content;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.headings-contact h2{
+    font-family: 'Poppins';
+    padding: 30px 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+/* -------------------------------------
+------------------  CONTACT US ----------
+--------------------------------------- */
+
+form{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.name-field,
+.email-field,
+.message-field{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    padding: 5px;
+}
+
+/* --------------------------------------
+---------------  MEDIA QUERIES  ---------
+-------------------------------------- */
+
+
+
+
+@media only screen and (min-width:1046px) and (max-width:1250px){
+    
+    .home-page-headings{
+        width: fit-content;
+        height: fit-content;
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* top: 30%;
+        left: 3%; */
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        font-size: 100px;
+        line-height: 115px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -5px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 90px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        color: #000000;
+    }
+   
+    .images{
+        width: 30%;
+        height: 90%;
+    }
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .port-desc-details{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+
+
+    .port-desc-image{
+        width: 25%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-image-gallery{
+        margin: 50px 0px 50px 0px;
+        height: 75vh;
+    }
+
+
+    .portfolio-image-gallery .images-portfolio {
+        display: flex;
+        justify-content: center;
+        padding: 0 5%;
+        height: 70vh;
+        flex-wrap: wrap;
+    }
+
+    /* .carousel-slide{
+        width: 25%;
+    } */
+
+}
+
+@media only screen and (min-width:850px) and (max-width:1046px){
+
+    .home-page{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        background-color: #EEDB66;
+        /* background-color: black; */
+        justify-content: space-around;
+        align-items: center;
+        padding: 2% 6%;
+        flex-wrap: wrap;
+    }
+
+    .home-page-headings{
+        width: fit-content;
+        height: fit-content;
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* top: 30%;
+        left: 3%; */
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        font-size: 80px;
+        line-height: 80px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -5px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+        padding: 20px 0px;
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+   
+    .images{
+        width: 30%;
+        height: 80%;
+    }
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .port-desc-image{
+        width: 25%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .port-desc-details{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .portfolio-image-gallery{
+         margin: 70px 0px 10px 0px;
+        /* margin: 0; */
+        height: 75vh;
+    }
+
+    .portfolio-image-gallery .images-portfolio {
+        display: flex;
+        justify-content: center;
+        padding: 0 5%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media only screen and (min-width:700px) and (max-width:850px){
+
+    .home-page{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        background-color: #EEDB66;
+        /* background-color: black; */
+        justify-content: space-around;
+        align-items: center;
+        padding: 2% 6%;
+        flex-wrap: wrap;
+    }
+
+    .home-page-headings{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        font-size: 80px;
+        line-height: 75px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -5px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+   
+    .images{
+        width: 30%;
+        height: 90%;
+    }
+
+    .portfolio-heading h1{
+        font-size: 60px;
+    }
+    
+
+    .portfolio{
+        height: fit-content;
+    }
+
+    .portfolio-main-image{
+        width: 25%;
+    }
+
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .port-desc-details{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .port-desc-image{
+        width: 25%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-image-gallery{
+        margin: 70px 0px 10px 0px;
+        /* margin: 0; */
+        height: 75vh;
+    }
+
+    .portfolio-image-gallery .images-portfolio {
+        display: flex;
+        justify-content: center;
+        padding: 0 5%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .carousel.slide {
+        width: 35%;
+        height: 100%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:700px){
+
+    .home-page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;  /* <--- I added this */
+        align-items: center; 
+        padding: 1% 3%;
+    }
+
+    .home-page-headings{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        font-size: 80px;
+        line-height: 75px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -5px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+    .portfolio{
+        height: fit-content;
+    }
+
+    .images{
+        width: 32%;
+        height: 70%;
+    }
+
+    .portfolio-heading h1{
+        font-size: 50px;
+    }
+
+    .portfolio-main-image{
+        width: 40%;
+    }
+
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .social-links{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        padding: 10px;
+        position: absolute;
+        top: 55%;
+        left: -10%;
+        transform: rotate(-90deg);
+
+    }
+
+    .home-page .model-tagline{
+        position: absolute;
+        top: 60%;
+        right: -20%;
+        transform: rotate(-90deg);
+    }
+
+    .photographer-label {
+        height: fit-content;
+        width: fit-content;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .photographer-label h2{
+        font-size: 40px;
+    }
+
+    .port-desc-details p {
+        font-size: 20px;
+    }
+
+    .port-desc-details{
+        text-align: center;
+        width: 90%;
+        margin-bottom: 70px;
+    }
+
+    .port-desc-image{
+        width: 25%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio-image-gallery{
+        margin: 70px 0px 10px 0px;
+        /* margin: 0; */
+        height: 75vh;
+    }
+
+    .portfolio-image-gallery .images-portfolio {
+        display: flex;
+        justify-content: center;
+        padding: 0 5%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .carousel.slide {
+        width: 45%;
+        height: 100%;
+    }
+
+    
+    .about-me .portfolio-heading {
+        font-size: 45px;
+    }
+
+    
+    .statement p {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 40px !important;
+        padding: 50px;
+        color: #000;
+        text-transform: uppercase;
+    }
+ 
+
+    .about-description p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 0;
+        font-size: 21px;
+        line-height: 30px;
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    /* .portfolio-image-gallery .images-portfolio img {
+        width: 40%; */
+        /* height: 100%; */
+        /* margin: 0;
+        padding: 0;
+    } */
+
+    /* .portfolio-image-gallery{
+        margin: 0;
+        width: 100%;
+        height: fit-content;
+    } */
+
+}
+
+
+@media only screen and (min-width:350px) and (max-width:500px){
+
+    .home-page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;  /* <--- I added this */
+        align-items: center; 
+        padding: 1% 3%;
+    }
+
+    .home-page-headings{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        font-size: 50px;
+        line-height: 45px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -5px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+   
+    .images{
+        margin-top: 50px;
+        width: 50%;
+        height: 60%;
+    }
+
+    .portfolio-heading h1{
+        font-size: 45px;
+    }
+
+    .portfolio{
+        height: fit-content;
+    }
+
+
+    .portfolio-main-image{
+        width: 40%;
+    }
+
+
+    .photographer-label {
+        height: fit-content;
+        width: fit-content;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .photographer-label h2{
+        font-size: 35px;
+    }
+
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .social-links{
+        display: none;
+
+    }
+
+    .home-page .model-tagline{
+        display: none;
+    }
+    
+    .port-desc-details{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 70px;
+    }
+
+    .port-desc-details p{
+        font-size: 18px;
+    }
+
+    .port-desc-image{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+
+    .portfolio-image-gallery{
+        margin: 0;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .carousel-control-next{
+        height: fit-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .carousel-control-prev{
+        height: fit-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .carousel.slide{
+        width: 70%;
+        height: 100%;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .carousel-item{
+        height: 100%;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me .portfolio-heading {
+        font-size: 45px;
+    }
+
+    
+    .statement p {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 30px !important;
+        padding: 20px;
+        color: #000;
+        text-transform: uppercase;
+    }
+ 
+    .about-description p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 0;
+        font-size: 15px;
+        line-height: 30px;
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+}
+
+@media only screen and (max-width:350px){
+    .home-page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;  /* <--- I added this */
+        align-items: center; 
+        padding: 1% 3%;
+    }
+
+    .home-page-headings{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .home-page-headings .model-name{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 30px;
+        line-height: 45px;
+        color: rgb(51, 51, 51);
+        letter-spacing: -1px;
+    
+    }
+    
+    .home-page .model-profession{
+        width: fit-content;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .home-page .model-tagline{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+   
+    .images{
+        margin-top: 50px;
+        width: 70%;
+        height: 60%;
+    }
+
+    .portfolio-heading h1{
+        font-size: 40px;
+    }
+
+    .social-links{
+        display: none;
+
+    }
+
+    .portfolio{
+        height: fit-content;
+    }
+
+    .portfolio-main-image{
+        width: 60%;
+    }
+
+    .portfolio-description {
+        width: 100%;
+        height: 50vh;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 30px;
+    }
+
+    .photographer-label {
+        height: fit-content;
+        width: fit-content;
+        transform: rotate(0deg);
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .photographer-label h2{
+        font-size: 20px;
+    }
+
+
+    .portfolio-description {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .home-page .model-tagline{
+        display: none;
+    }
+
+    .port-desc-details{
+        text-align: center;
+        width: 99%;
+        margin-bottom: 70px;
+    }
+
+    .port-desc-details p{
+        font-size: 16px;
+    }
+
+    .port-desc-image{
+        width: 70%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+    
+
+    .portfolio-image-gallery{
+        margin: 0;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .carousel-control-next{
+        height: fit-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .carousel-control-prev{
+        height: fit-content;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .carousel.slide{
+        width: 90%;
+        height: 100%;
+    }
+
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .carousel-item{
+        height: 100%;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me .portfolio-heading {
+        font-size: 35px;
+    }
+
+    .statement p {
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 30px !important;
+        padding: 20px;
+        color: #000;
+        text-transform: uppercase;
+    }
+ 
+    .about-description p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 0;
+        font-size: 13.5px;
+        line-height: 30px;
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+}
+
+
